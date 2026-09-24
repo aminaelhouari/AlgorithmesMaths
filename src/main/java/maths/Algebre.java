@@ -14,4 +14,14 @@ public class Algebre {
         }
         return resultat;
     }
+
+    /**
+     * Calcule la factorielle d'un nombre n de manière récursive
+     * @param n Un entier
+     * @return La factorielle de n
+     */
+    public int factorielleRecursive(int n){
+        if (n == 0) return 1;
+        return n * factorielleRecursive(n-1);
+    }
 }
