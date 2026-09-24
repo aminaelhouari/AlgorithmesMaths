@@ -3,8 +3,7 @@ package maths;
 public class Arithmetique {
 
     /**
-     * Calcule l'exponentiation rapide sous modulo a^r mod m.
-     *
+     * Calcule l'exponentiation rapide sous modulo a^r mod m
      * @param a La base
      * @param r La puissance (exposant)
      * @param m Le modulo
