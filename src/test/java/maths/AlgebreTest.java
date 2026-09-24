@@ -11,4 +11,10 @@ public class AlgebreTest {
         Algebre algebre = new Algebre();
         assertEquals(720, algebre.factorielleIterative(6));
     }
+
+    @Test
+    public void testFactoRec(){
+        Algebre algebre = new Algebre();
+        assertEquals(720, algebre.factorielleRecursive(6));
+    }
 }
